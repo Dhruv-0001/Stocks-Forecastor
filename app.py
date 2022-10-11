@@ -16,7 +16,7 @@ START = d2.strftime("%Y-%m-%d")
 st.markdown(f"<h1 style='text-align: center; color: red;'>STOCKS FORECASTOR</h1>", unsafe_allow_html=True)
 st.image("https://www.pngall.com/wp-content/uploads/13/Stock-Market-PNG-File.png")
 
-df= pd.read_csv("C:/PROGRAMMING/PYTHON LANGUAGE/projects/Stock Price Predictor/nasdaq_screener_1665400144860.csv")
+df= pd.read_csv("nasdaq_screener_1665400144860.csv")
 stocks_list = df['Symbol']
 
 stocks = (stocks_list)
