@@ -13,7 +13,7 @@ TODAY = today.strftime("%Y-%m-%d")
 d2 = date.today() - timedelta(days=3000)
 START = d2.strftime("%Y-%m-%d")
 
-st.markdown(f"<h1 style='text-align: center; color: red;'>STOCKS FORECASTOR</h1>", unsafe_allow_html=True)
+st.markdown(f"<h1 style='text-align: center; color: red;'>STOCKS FORECASTER</h1>", unsafe_allow_html=True)
 st.image("https://www.pngall.com/wp-content/uploads/13/Stock-Market-PNG-File.png")
 
 df= pd.read_csv("nasdaq_screener_1665400144860.csv")
