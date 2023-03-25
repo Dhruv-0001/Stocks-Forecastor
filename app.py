@@ -64,7 +64,7 @@ plot_raw_data()
 df_train = data[['Date','Close']]
 df_train = df_train.rename(columns={"Date": "ds", "Close": "y"})
 
-df_train['ds'] = df_train['ds'].dt.tz_convert(None)
+#df_train['ds'] = df_train['ds'].dt.tz_convert(None)
 
 m = Prophet()
 m.fit(df_train)
